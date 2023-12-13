@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+
+#box{
+    width: 250px;
+    height: 250px;
+    color: white;
+    background-color: rgb(79, 92, 81);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slide-Left;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-direction: normal;
+    opacity: 0;
+}
+
+@keyframes slideLeft{
+    from{transform: trasnlateX(300%)}
+}
+
+@keyframes rotate{
+    from{transform: rotateY(300%)}
+
+}
+
+@keyframes rotate{
+    25%{transform: rotateZ(360deg)}
+
+}
+@keyframes grow{
+    100%{transform: scale(2, 2)}
+}
+
+@keyframes shrink{
+    50%{transform: scale(0.5 0.5)}
+}
+
+@keyframes fadeIn {
+    100%{opacity: 1}
+}
+
+@keyframes colorChange {
+    0%{background-color: rgb(79, 92, 81);;}
+    20%{background-color: rgb(15, 107, 29);;}
+    40%{background-color: rgb(33, 54, 148);;}
+    60%{background-color: rgb(185, 116, 26);;}
+    80%{background-color: rgb(117, 39, 111);;}
+    100%{background-color: rgb(230, 47, 14);;}
+}
+
+@keyframes glow {
+    50%{box-shadow: 0px, 0px 50px yellowgreen;}
+}
