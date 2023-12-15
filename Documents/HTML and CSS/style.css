@@ -1,0 +1,31 @@
+body{
+    background-image: url(images/background-css-learning.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.box{
+    text-align: center;
+    margin-top:11px;
+    border: 5px solid;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+#box1{
+    background-color: rgb(199, 145, 44);
+    border-color: rgb(141, 124, 93);
+}
+
+#box2{
+    background-color: rgb(131, 73, 131);
+}
+
+div{
+    border: 2px solid;
+    height: 75px;
+    overflow: auto;
+}
